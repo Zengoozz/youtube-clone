@@ -39,7 +39,7 @@ const VideoPreview = () => {
 
     console.log(comments)
 
-    (isFetching || isFetchingSimilarVideos || isFetchingComments) && <Loading />
+        (isFetching || isFetchingSimilarVideos || isFetchingComments) && <Loading />
 
     (errorComments || error || errorSimilarVideos) && <Error />
 
